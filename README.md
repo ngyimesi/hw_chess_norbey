@@ -5,4 +5,4 @@ To compile and run you need to have the SDL2 library at hand. They could be foun
 Debugmalloc has been excluded from the git release (a mandatory library for the homework to debug memory leaks).
 Usage is pretty obvious, documentations will be uploaded as soon as I'm in the mood to translate them.
 **Have fun!**
-*gcc command: gcc -o <name> main.c display.c datasruct.c 'sdl2-config --cflags --libs' -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_gfx -lm*
+*gcc command: gcc -o filename main.c display.c datasruct.c 'sdl2-config --cflags --libs' -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_gfx -lm*
