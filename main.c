@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     boardConf.transformSelectColor = (Color){123, 239, 178, 255};
     strcpy(boardConf.piecefilename, "pieces_scaled.png");
     strcpy(boardConf.fontfilename, "LiberationSerif-Regular.ttf");
-    strcpy(boardConf.bgfilename, "bg_scaled.png");
+    strcpy(boardConf.bgfilename, "bg_scaled.jpg");
     boardConf.pieceSize = 63;
     if(!loadConfig(&boardConf))
         createConfig(&boardConf);
